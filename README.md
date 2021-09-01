@@ -40,4 +40,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## `Screenshots`
 
 ![SC one](https://i.ibb.co/kMbMDft/go1.png)
+![SC three](https://i.ibb.co/dB0wNj3/go3.png)
 ![SC two](https://i.ibb.co/rM82MYs/go2.png)
