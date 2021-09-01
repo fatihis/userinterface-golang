@@ -1,0 +1,19 @@
+.formButton {
+  margin-top: 40px;
+  height: 45px;
+  width: 30%;
+  background-color: #00a6b9;
+  border-radius: 25px;
+  border-width: 0px;
+  color: white;
+}
+.formButton :hover {
+  cursor: pointer;
+  border-color: #d1f6fa;
+}
+button:focus {
+  outline: 0;
+  border-color: #d1f6fa;
+  border-width: 1px;
+  box-shadow: 1px 1px 5px #00a6b9;
+}
