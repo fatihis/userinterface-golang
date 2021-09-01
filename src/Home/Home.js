@@ -22,6 +22,8 @@ const Home = () => {
       console.log(data);
     });
   }, []);
+
+  //---REGION: Functions---
   //Consuming /getAll end-point
   const getAllUsers = async () => {
     const response = await fetch("http://localhost:27027/getAll");
@@ -115,7 +117,10 @@ const Home = () => {
   const deleteUserAlert = () => {
     setAlertVisible(true);
   };
-
+  const handleCancel = () => {
+    setIsVisible(false);
+  };
+  //-<END>--REGION: Functions</END>---
   //columns of table
   const columns = [
     {
@@ -144,10 +149,6 @@ const Home = () => {
       key: Math.floor(Math.random() * 1000) + 1,
     },
   ];
-
-  const handleCancel = () => {
-    setIsVisible(false);
-  };
 
   return (
     <div className="home-main-wrapper">
